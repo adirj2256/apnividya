@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --clr-primary: #ffc100;
+    --ff-primary: 'bebas neue', cursive;
+}
+
+body {
+    background-color: var(--clr-primary);
+    font-family: var(--ff-primary);
+}

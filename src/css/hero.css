@@ -1,0 +1,8 @@
+.cta {
+    box-shadow: rgb(0, 0, 0) 8px 8px 0px;
+}
+
+.cta:hover {
+    transform: rotate(6deg);
+    transition: all ease-in-out 200ms;
+}

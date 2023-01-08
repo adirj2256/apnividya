@@ -1,0 +1,32 @@
+:root {
+    --clr-hvr: #EB00FF;
+}
+
+.list>.active {
+    color: var(--clr-hvr);
+
+}
+
+.list>.active::after {
+    content: '';
+    background-image: url("../images/border.png");
+    display: block;
+    position: absolute;
+    width: 104px;
+    height: 9px;
+}
+
+.m-list>li {
+    border: 3px solid black;
+    margin: 1rem;
+}
+
+.m-list>.active {
+    background-color: var(--clr-hvr);
+    color: white;
+    box-shadow: rgb(0, 0, 0) 8px 8px 0px;
+}
+
+.list>li:hover {
+    color: var(--clr-hvr);
+}
