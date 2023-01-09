@@ -30,3 +30,13 @@
 .list>li:hover {
     color: var(--clr-hvr);
 }
+
+@media (min-width: 50em) {
+    .p-nav {
+        display: block;
+    }
+
+    .m-p-nav {
+        display: none;
+    }
+}
