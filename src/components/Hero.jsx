@@ -6,7 +6,7 @@ import '../css/hero.css'
 function Hero() {
     return (
         <div className='hero-main-container | flex flex-col-reverse'>
-            <div className="col1 | text-center mt-6">
+            <div className="col1 | text-center mt-4">
                 <h1 className='hidden'>welcome</h1>
                 <h2 className='text-4xl'>
                     sign in now to chat, video call and collaborate in one place
